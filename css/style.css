@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    background: url(../images/bg_header.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+} 
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+ 
+header li {
+    margin-left: 40px;
+}
+
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1b191e;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: 500ms; 
+}
+
+header a:hover {
+    color: #2b6ccd;
+}
+
+#products {
+    padding-top: 15px;
+}
+ 
+#products .cart {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+#products .cart .item {
+    margin: 15px;
+    position: relative;
+}
+
+h2 {
+    color: #2b6ccd;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 85px 0;
+}
+
+#products .cart .item .desc {
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 26px;
+    box-sizing: border-box;
+}
+
+#products .cart .item .desc .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+#products h3 {
+    color: #2b6ccd;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+#products .desc p {
+    color: #2d2d2d;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about {
+    margin-top: 85px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+
+#about h3 {
+    color: #2b6ccd;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#about p {
+    max-width: 430px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#best_product {
+    padding-bottom: 100px;
+}
+
+#best_product p {
+    max-width: 440px;
+    color: #484848;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#best_product .desc {
+    margin-left: 30px;
+}
+
+#best_product .content {
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#best_product h3 {
+    color: #2c6bcd; 
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 55px;
+}
+
+#best_product a {
+    padding: 17px 60px;
+    border: 1px #2b6ccd solid;
+    display: inline-block;
+    margin-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2b6ccd;
+    text-decoration: none;
+}
